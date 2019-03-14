@@ -7,4 +7,6 @@ class Student < User
     @knowledge = []
   end
   
+  def new(knowledge)
+   @knowledge << self
 end

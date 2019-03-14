@@ -8,5 +8,5 @@ class Student < User
   end
   
   def new(knowledge)
-   @knowledge << self
+   @knowledge << knowledge
 end
